@@ -1,0 +1,14 @@
+en
+conf t
+hostname R2
+int g0/0/0
+ip add 192.168.2.1 255.255.255.0
+no sh
+exit
+int g0/0/1
+ip add 10.0.0.2 255.0.0.0
+no sh
+exit
+ip route 0.0.0.0 0.0.0.0 10.0.0.1
+end
+wr
