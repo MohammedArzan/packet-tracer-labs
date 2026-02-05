@@ -30,4 +30,4 @@ explained with simple examples and diagrams.
 4. Practice using Packet Tracer
 
 ## 📬 Contact
-LinkedIn: https://linkedin.com/in/your-profile
+LinkedIn: https://www.linkedin.com/in/mohammed-arzan/
