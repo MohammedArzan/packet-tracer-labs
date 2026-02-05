@@ -1,6 +1,6 @@
 en
 conf t
-hostname R2
+hostname R1
 int g0/0/0
 ip add 130.0.0.1 255.255.0.0
 no sh
