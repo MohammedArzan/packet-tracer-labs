@@ -1,33 +1,30 @@
-# packet-tracer-labs
-Beginner-friendly networking fundamentals with diagrams and explanations.
-# Networking Fundamentals
+# Packet Tracer Labs – Networking Fundamentals
 
-This repository contains beginner-friendly networking concepts
-explained with simple examples and diagrams.
+This repository is created for students and freshers who want to
+learn computer networking using Cisco Packet Tracer.
 
-## 📌 Topics Covered
-- OSI Model (Layer-by-layer)
-- TCP/IP Model
-- Network Devices
-- Network Topologies
-- Encapsulation & De-encapsulation
-- Core Protocols (DNS, DHCP, HTTP, FTP)
+## 🔰 Who is this for?
+- Networking beginners
+- CCNA aspirants
+- Students & freshers
 
-## 🧠 Who Is This For?
-- College students
-- Freshers
-- Beginners in networking
+## 📚 Labs Included
+1. Default Routing
+2. Static Routing
+3. RIP Routing
+4. EIGRP Routing
+5. OSPF Routing
 
-## 📂 Contents
-- Notes (PDF / Markdown)
-- Diagrams
-- Practical examples
+## 📥 How to Use
+1. Open any lab folder
+2. Download the `.pkt` file
+3. Open it using Cisco Packet Tracer
+4. Read the README for explanation
+5. Practice and modify the lab
 
-## 🚀 How to Use
-1. Open any folder
-2. Read the notes
-3. View diagrams
-4. Practice using Packet Tracer
+## ⭐ Tools Used
+- Cisco Packet Tracer
+- Basic Cisco IOS commands
 
-## 📬 Contact
-LinkedIn: https://www.linkedin.com/in/mohammed-arzan/
+## 🤝 Contributions
+Feel free to fork and practice.
