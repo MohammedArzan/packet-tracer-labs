@@ -1,30 +1,27 @@
-# Packet Tracer Labs – Networking Fundamentals
+# Default Routing – Packet Tracer Lab
 
-This repository is created for students and freshers who want to
-learn computer networking using Cisco Packet Tracer.
+## 📌 Objective
+To understand how default routing works between two routers using Cisco Packet Tracer.
 
-## 🔰 Who is this for?
-- Networking beginners
-- CCNA aspirants
-- Students & freshers
+## 🧠 What is Default Routing?
+Default routing is used when a router does not have a specific route
+for a destination network. The router forwards traffic to a predefined
+next-hop router.
 
-## 📚 Labs Included
-1. Default Routing
-2. Static Routing
-3. RIP Routing
-4. EIGRP Routing
-5. OSPF Routing
+## 🗺️ Network Topology
+- Two routers (R1 and R2)
+- Each router connected to its own LAN
+- Routers connected using a point-to-point network (10.0.0.0/8)
 
-## 📥 How to Use
-1. Open any lab folder
-2. Download the `.pkt` file
-3. Open it using Cisco Packet Tracer
-4. Read the README for explanation
-5. Practice and modify the lab
+## 🌐 IP Addressing
+### R1
+- LAN: 192.168.1.1/24
+- WAN: 10.0.0.1/8
 
-## ⭐ Tools Used
-- Cisco Packet Tracer
-- Basic Cisco IOS commands
+### R2
+- LAN: 192.168.2.1/24
+- WAN: 10.0.0.2/8
 
-## 🤝 Contributions
-Feel free to fork and practice.
+## ⚙️ Routing Configuration
+Default route configured on both routers:
+
