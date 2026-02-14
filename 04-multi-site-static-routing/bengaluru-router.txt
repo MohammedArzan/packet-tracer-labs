@@ -1,0 +1,15 @@
+enable
+configure terminal
+hostname Bengaluru
+interface FastEthernet0/0
+ ip address 10.0.0.1 255.0.0.0
+ no shutdown
+exit
+interface Serial0/0
+ ip address 133.12.0.1 255.255.0.0
+ no shutdown
+exit
+ip route 192.16.10.0 255.255.255.0 133.12.0.2
+ip route 31.1.0.0 255.255.0.0 133.12.0.2
+end
+write memory
