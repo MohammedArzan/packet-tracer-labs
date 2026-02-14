@@ -1,0 +1,29 @@
+en
+conf t
+hostname Switch2
+vlan 10
+name IT
+ex
+vlan 20
+name HR
+ex
+vlan 30
+name DEV
+ex
+int range f0/2-3
+switchport mode access
+switchport access vlan 10
+ex
+int range f0/4-5
+switchport mode access
+switchport access vlan 20
+ex
+int range f0/6-7
+switchport mode access
+switchport access vlan 30
+ex
+int f0/1
+switchport mode trunk
+no sh
+ex
+do wr
