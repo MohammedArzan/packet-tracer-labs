@@ -1,0 +1,21 @@
+en
+conf t
+hostname R2
+int s0/0
+ip add 10.0.0.2 255.0.0.0
+no sh
+exit
+int s0/2
+ip add 129.2.1.2 255.255.255.0
+no sh 
+exit
+int s0/1
+ip add 30.5.0.1 255.255.0.0
+no sh 
+exit
+router ospf 14
+net 10.0.0.0 0.255.255.255 area 0
+net 129.2.1.0 0.0.255.255 area 0
+net 30.5.0.0 0.0.255.255 area 0
+end
+wr
