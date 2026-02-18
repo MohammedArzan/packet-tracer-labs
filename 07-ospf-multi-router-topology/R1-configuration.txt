@@ -1,0 +1,16 @@
+en
+conf t
+hostname R1
+int f0/0
+ip add 50.1.0.1 255.255.0.0
+no sh
+exit
+int s0/0
+ip add 10.0.0.1 255.0.0.0
+no sh 
+exit
+router ospf 10
+net 50.1.0.0 0.0.255.255 area 0 
+net 10.0.0.0 0.255.255.255 area 0
+end
+wr
