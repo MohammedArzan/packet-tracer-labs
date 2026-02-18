@@ -1,0 +1,21 @@
+en
+conf t
+hostname R4
+int f0/0
+ip add 192.168.1.1 255.255.255.0
+no sh
+exit
+int f0/1
+ip add 192.168.2.1 255.255.255.0
+no sh
+exit
+int s0/0
+ip add 30.5.0.2 255.255.0.0
+no sh
+exit
+router ospf 12
+net 192.168.1.0 0.0.0.255 area 0
+net 192.168.2.0 0.0.0.255 area 0
+net 30.5.0.0 0.0.255.255 area 0
+exit 
+wr
